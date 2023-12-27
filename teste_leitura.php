@@ -28,4 +28,4 @@ try {
 } catch (MongoDB\Driver\Exception\Exception $e) {
     echo "Erro ao conectar ao banco de dados MongoDB: " . $e->getMessage() . "\n";
 }
-?>
+
